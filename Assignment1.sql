@@ -1,0 +1,24 @@
+  -- create database Employee1;
+ --  create table EmployeeDetailss(
+--  Emp_id int not null,
+--  Emp_name varchar(30) not null,
+--  Job_name varchar(30) not null,
+-- Manager_id int not null,
+-- Hire_date int not null,
+-- Salary  int  not null, 
+--  Dep_id int not null
+--  );
+-- insert into employeedetailss(Emp_id,Emp_name,Job_name,Manager_id,Hire_date,Salary,Dep_id )
+-- values(123,"K.Sudha","Software",1001,2023-06-04,30000,1011);
+-- values(456,"K.Aparna","CEO",1002,2025-04-06,32000,1012);
+-- values(789,"D.Satya","Hardware",1003,2000-03-09,35000,1013);
+-- values(765,"k.Deepu","Marketing-Manager",1004,2022-04-06,20000,1014);
+ -- values(397,"K.siri","Business",1005,2023-04-04,6500,1015);
+--  values(523,"A.lavanya","Developer",1006,2021-02-09,10000,1016);
+-- values(655,"L.sai","Professor",1007,2022-01-31,15000,1017);
+ -- values(532,"I.Meena","Software-Employee",1008,1999-0726,20000,1018);
+ -- values(962,"G.Suma","HR",1009,2000-06-13,25000,1019);
+-- values(587,"J.hyothi","Master",1021,2021-07-15,13000,1021);
+-- select   Salary from EmployeeDetailss;
+-- select Job_name from EmployeeDetailss;
+update employeedetailss set Salary=600 where Emp_name='L.sai';

@@ -1,0 +1,21 @@
+-- create database football1;
+-- create table FootBallVenue(
+-- venue_id int not null,
+-- venue_Name varchar(30) not null,
+-- City_id int not null,
+-- Capacity int not null
+-- )
+-- insert into FootBallVenue(venue_id,venue_Name,City_id,Capacity)
+-- values(101,"India",2736211,24352);
+-- values(102,"Australia",1625347,84657);
+-- values(103,"Hydrabad",6354837,63850);
+-- values(104,"Mumbai",6737382,73559);
+-- values(105,"Chennai",7364834,65036);
+-- values(106,"Vizag",6354046,63023);
+-- values(107,"Dehli",4738483,85473);
+-- values(108,"Jaipur",6384046,46583);
+-- values(109,"Pakistan",6547374,54202);
+-- values(110,"Banglur",2437676,90347);
+-- select count(venue_id)as no_of_venues from FootBallvenue;
+-- select distinct venue_Name as Location,capacity as volume from FootBallVenue;
+delete from FootBallVenue where venue_Name="Australia";
